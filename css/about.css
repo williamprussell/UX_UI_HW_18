@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header navigation starts here */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: Bebas Neue, Arial, sans-serif; 
+    border-bottom: 3px solid #666666;
+    position: sticky;
+    top: 0;
+}
+
+.right {
+    font-size: 20pt;
+}
+
+.work {
+    margin-right: 2rem;
+    color:#378AD7;
+    text-decoration: none;
+}
+
+.about {
+    margin-right: 2rem;
+    color: #378AD7;
+    text-decoration: none;
+}
+
+.contact {
+    margin-right: 72px;
+    color: #378AD7;
+    text-decoration: none;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+    padding-left: 72px;
+}
