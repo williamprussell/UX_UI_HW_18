@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+/* :root {
+    margin-left: 3rem;
+    margin-right: 3rem;
+} */
+
 /* Header navigation starts here */
 
 .nav {
@@ -21,6 +26,7 @@
 
 .right {
     font-size: 20pt;
+    letter-spacing: 2px;
 }
 
 .work {
@@ -46,3 +52,94 @@
     height: 80px;
     padding-left: 72px;
 }
+
+/* About me/My Skills starts here */
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    font-family: Bebas Neue, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+    color: #666666;
+    padding-top: 4rem;
+}
+
+#grid-1 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 4rem;
+}
+
+.headshot {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #666666;
+    height: 350px;
+    width: auto;
+    border-radius: 20px;
+    margin-right: 1rem;
+}
+
+.brand-statement {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: flex-start;
+    font-family: Lato, Arial, sans-serif;
+    flex-direction: column;
+    line-height: 30px;
+    margin-left: 1rem;
+}
+
+/* hr {
+    margin-top: 4rem;
+    margin-left: 55rem;
+    margin-right: 55rem;
+    margin-bottom: 4rem;
+    
+} */
+
+#grid-2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.tools {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-family: Lato, Arial, sans-serif;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.my-skills {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-family: Lato, Arial, sans-serif;
+    line-height: 30px;
+}
+
+.category-header {
+    color: #378AD7;
+}
+
+/* @media only screen and (max-width: 600){
+    . {
+        flex-direction: row;
+    }
+} */

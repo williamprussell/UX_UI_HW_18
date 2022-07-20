@@ -21,6 +21,7 @@
 
 .right {
     font-size: 20pt;
+    letter-spacing: 2px;
 }
 
 .work {
@@ -87,6 +88,7 @@
     color: #378AD7;
     font-family: Bebas Neue, Arial, sans-serif;
     font-size: 20pt;
+    letter-spacing: 2px;
     padding: 10px;
     background-color: #FFFFFF;
     border-color: #378AD7;
@@ -107,10 +109,13 @@
     display: flex;
     justify-content: center;
     padding-top: 2rem;
+    letter-spacing: 2px;
+    font-size: 30px;
 }
 
 .my-work-header {
     font-family: Bebas Neue, Arial, sans-serif; 
+    color:#378AD7;
 }
 
 #case-studies {
